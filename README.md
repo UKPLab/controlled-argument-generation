@@ -201,7 +201,7 @@ search query for this data.
         {"id": id of the sample, starting with 0 (int), "stance": "Argument_against" or "Argument_for", depending on the stance (string), "sent": The argument sentence (string), "aspect_string": A list of aspects for this argument (list of string)}   
 
 ## Citing
-If you find this work helpful, please cite our publication [Aspect-Controlled Neural Argument Generation](https://arxiv.org/abs/2005.00084):
+If you find this work helpful, please cite our publication [Aspect-Controlled Neural Argument Generation](https://aclanthology.org/2021.naacl-main.34/):
 
     @inproceedings{schiller-etal-2021-aspect,
     title = "Aspect-Controlled Neural Argument Generation",
