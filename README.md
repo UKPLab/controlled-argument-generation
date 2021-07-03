@@ -1,7 +1,7 @@
 # Aspect-Controlled Neural Argument Generation
 
 ## Introduction
-_Accompanying repository for the paper [Aspect-Controlled Neural Argument Generation](https://arxiv.org/abs/2005.00084)._
+_Accompanying repository for the paper [Aspect-Controlled Neural Argument Generation](https://aclanthology.org/2021.naacl-main.34/)._
 
 We rely on arguments in our daily lives to deliver our opinions and base them on evidence, making them more convincing 
 in turn. However, finding and formulating arguments can be challenging. 
@@ -203,13 +203,20 @@ search query for this data.
 ## Citing
 If you find this work helpful, please cite our publication [Aspect-Controlled Neural Argument Generation](https://arxiv.org/abs/2005.00084):
 
-    @misc{schiller2020aspectcontrolled,
-        title={Aspect-Controlled Neural Argument Generation},
-        author={Benjamin Schiller and Johannes Daxenberger and Iryna Gurevych},
-        year={2020},
-        eprint={2005.00084},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL}
+    @inproceedings{schiller-etal-2021-aspect,
+    title = "Aspect-Controlled Neural Argument Generation",
+    author = "Schiller, Benjamin  and
+      Daxenberger, Johannes  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.naacl-main.34",
+    doi = "10.18653/v1/2021.naacl-main.34",
+    pages = "380--396",
+    abstract = "We rely on arguments in our daily lives to deliver our opinions and base them on evidence, making them more convincing in turn. However, finding and formulating arguments can be challenging. In this work, we present the Arg-CTRL - a language model for argument generation that can be controlled to generate sentence-level arguments for a given topic, stance, and aspect. We define argument aspect detection as a necessary method to allow this fine-granular control and crowdsource a dataset with 5,032 arguments annotated with aspects. Our evaluation shows that the Arg-CTRL is able to generate high-quality, aspect-specific arguments, applicable to automatic counter-argument generation. We publish the model weights and all datasets and code to train the Arg-CTRL.",
     }
 
 Contact person: [Benjamin Schiller](mailto:schiller@ukp.informatik.tu-darmstadt.de)
