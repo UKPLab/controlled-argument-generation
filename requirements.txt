@@ -7,7 +7,7 @@ elasticsearch
 justext==2.2.0
 warcio==1.7.3
 nltk==3.4.5
-numpy==1.18.1
+numpy==1.22.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
 tensorflow-gpu==1.14.0
